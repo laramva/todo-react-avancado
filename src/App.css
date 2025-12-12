@@ -1,0 +1,11 @@
+import React from "react";
+import LetGoScreens from "./screens/LetGoScreens.jsx";
+import { TodoProvider } from "./context/TodoContext.jsx";
+
+export default function App() {
+  return (
+    <TodoProvider>
+      <LetGoScreens />
+    </TodoProvider>
+  );
+}

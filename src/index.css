@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html, body {
+    background: #0B0614;
+    color: rgba(244, 243, 255, 0.92); /* #F4F3FF */
+  }
+}
